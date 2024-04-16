@@ -40,7 +40,6 @@ def juego():
 
 
             if pregunta_aleatoria not in preguntas_hechas:
-                print(f"{pregunta_aleatoria} \n")
                 preguntas_hechas.append(pregunta_aleatoria)
                 respuestas = preguntas_geografía[pregunta_aleatoria]
                 preguntas.remove(pregunta_aleatoria)
