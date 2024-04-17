@@ -15,7 +15,7 @@ puntos_ordenador = 0
 ronda = 1
 
 # imprimimos las instrucciones
-print(f'💥\033[1mPiedra, papel, tijera\033[0m💥\n\n- Piedra🪨 vence a tijera✂️.\n- Tijera✂️ vence a papel🧻.\n- Papel🧻 vence a piedra🪨.\n- Se obtiene un punto por cada ronda ganada1️⃣.\n- Gana el juego quien haya conseguido 3 puntos.🏆')
+print(f'💥\033[1mTe damos la bienvenidad a:\n Piedra, papel, tijera\033[0m💥\n\n- Piedra🪨 vence a tijera✂️.\n- Tijera✂️ vence a papel🧻.\n- Papel🧻 vence a piedra🪨.\n- Se obtiene un punto por cada ronda ganada1️⃣.\n- Gana el juego quien haya conseguido 3 puntos.🏆')
 
 while True:
     
