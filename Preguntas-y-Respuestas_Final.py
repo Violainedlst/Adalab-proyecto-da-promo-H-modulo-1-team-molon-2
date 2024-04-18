@@ -18,7 +18,7 @@ preguntas_geografía={"¿Cuál es la montaña más alta de España? (Escríbelo 
 import random
 
 # Iniciamos juego dando la bienvenida y explicando las reglas del juego.
-print("\n                           🕌🏔️🌍 WELCOME! 🌍🏔️🕌 \n\n En este juego de preguntas y respuestas de geografía, pondrás a prueba tus conocimientos. \n\n ¡Piensa bien cada respuesta! La partida terminará cuando alcances 3 fallos. \n Para ganar, deberás acertar 5 preguntas. \n Fácil, ¿no? \n")
+print("\n                           🕌 🏔️ 🌍 WELCOME! 🌍 🏔️ 🕌 \n\n En este juego de preguntas y respuestas de geografía, pondrás a prueba tus conocimientos. \n\n ¡Piensa bien cada respuesta! La partida terminará cuando alcances 3 fallos. \n Para ganar, deberás acertar 5 preguntas. \n Fácil, ¿no? \n")
 print("🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀\n")
 print("¿Estás preparado/a?")
 start = input("Pulsa cualquier letra para empezar a jugar.")
@@ -71,7 +71,7 @@ def juego():
                     if fallos==3:
                         print("\n")
                         #print("*"*60)
-                        print(" 🚨🚨🚨🚨🚨🚨 ¡GAME OVER! 🚨🚨🚨🚨🚨🚨 \n\n             HAS FALLADO 3 VECES.\n\n\n\n")
+                        print(" 🚨🚨🚨🚨🚨🚨 GAME OVER! 🚨🚨🚨🚨🚨🚨 \n\n             HAS FALLADO 3 VECES.\n\n\n\n")
                         break
 
             else:

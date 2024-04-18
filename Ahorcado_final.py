@@ -101,7 +101,7 @@ def play():
         elif letter in secret_word:
             guessed_letters.append(letter)
             if set(guessed_letters) == set(secret_word):
-                print("🏆 Enhorabuena, has ganado!\n 🏆")
+                print("🏆 🔥 Enhorabuena, has ganado! 🔥 🏆\n")
                 break
         else:
             wrong_letters.append(letter)
@@ -109,7 +109,7 @@ def play():
             print(dibujo[7-lifes])
             lifes -=1
     if lifes == 0:
-        print(f"💀 No te quedan más vidas, la palabra secreta era {secret_word}. Juega otra vez para intentar ganar! 💀\n")
+        print(f"💀 No te quedan más vidas, la palabra secreta era \033[1m{secret_word}\033[0m. Juega otra vez para intentar ganar! 💀\n")
         print(dibujo[6])
 
 
